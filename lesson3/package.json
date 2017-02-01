@@ -1,0 +1,17 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "lesson3",
+  "main": "connectserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon connectserver.js"
+  },
+  "author": "Junghwan Yang",
+  "license": "ISC",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "commonjs": "0.0.1",
+    "connect": "^3.5.0"
+  }
+}
