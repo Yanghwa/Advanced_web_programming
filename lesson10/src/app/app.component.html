@@ -1,0 +1,13 @@
+<h1>
+	Hello {{title}}
+</h1>
+<p>
+	{{message}}
+</p>
+<h2>Book List</h2>
+<ul class="items">
+	<li *ngFor="let book of books">
+		<span class="badge">{{book.id}}</span>
+		{{book.title}}
+	</li>
+</ul>
